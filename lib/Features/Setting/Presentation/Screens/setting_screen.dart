@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
 
-
-class SettingPage extends StatefulWidget {
-  const SettingPage({super.key});
+class SettingScreen extends StatefulWidget {
+  const SettingScreen({super.key});
 
   @override
-  State<SettingPage> createState() => _SettingPageState();
+  State<SettingScreen> createState() => _SettingScreenState();
 }
 
-class _SettingPageState extends State<SettingPage> {
+class _SettingScreenState extends State<SettingScreen> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       backgroundColor: Colors.grey[300],
-
       body: Center(
         child: Text("Setting Page"),
       ),
